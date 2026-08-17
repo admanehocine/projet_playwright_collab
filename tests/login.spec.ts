@@ -37,10 +37,35 @@ await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}
 await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
 await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
 await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
 
 await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
 await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
 await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+
+
+
+
+
+
 
 // verfier si panier == 1
 
