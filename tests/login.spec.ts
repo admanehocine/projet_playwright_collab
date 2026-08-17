@@ -21,4 +21,17 @@ await page.getByRole('button',{name:"Se connecter"}).click()
 // verifier le nom attendu
 await expect (page.getByRole('button', {name : 'bahae'})).toHaveText('bahae')
 
+//cliquer sur boutique 
+await page.getByRole('link',{name:/^Boutique$/}).click()
+await expect(page).toHaveURL(/boutique.php/)
+
+//ajout produit 1 
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+
+
+// verfier si panier == 1
+
+await expect(page.locator("#panier-compteur-top")).toContainText("1")
+
+
 })
