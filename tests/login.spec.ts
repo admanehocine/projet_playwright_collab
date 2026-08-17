@@ -27,11 +27,29 @@ await expect(page).toHaveURL(/boutique.php/)
 
 //ajout produit 1 
 await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
 
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
 
 // verfier si panier == 1
 
 await expect(page.locator("#panier-compteur-top")).toContainText("1")
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
+await page.getByRole('link',{name:"Ajouter Box Fruits Sélectionnés au panier"}).click()
 
 
 })
