@@ -1,0 +1,22 @@
+{
+  "name": "projet_playwright_collab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admanehocine/projet_playwright_collab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/admanehocine/projet_playwright_collab/issues"
+  },
+  "homepage": "https://github.com/admanehocine/projet_playwright_collab#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0"
+  }
+}
