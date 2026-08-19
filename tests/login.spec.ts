@@ -1,5 +1,5 @@
 import {expect, test} from "@playwright/test"
-test("loginValid", async({page})=>{
+test("loginValid",{tag: '@e2e'}, async({page})=>{
 //visiter le site 
 await page.goto('https://agropeyi.fr/')
 
