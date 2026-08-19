@@ -3,17 +3,17 @@ pipeline{
     parameters{
         booleanParam(name:'ALLURE', defaultValue: false, description: 'generation de rapport allure')
         booleanParam(name: 'istags', defaultValue: false, description: 'executer avec ou sans tags')
-        choice(name: 'Tags', choices: ['@e2e', '@invalide', '@valide'], description: 'Choisissez le choix de tag')
+        choice(name: 'Tags', choices: ['@e2e', '@valide'], description: 'Choisissez le choix de tag')
         booleanParam(name: 'isbrowser', defaultValue: false, description: 'executer avec ou sans browser')
         choice(name: 'browser', choices: ['firefox','chromium','webkit'], description: 'Choisissez le choix du navigateur')   
     }
     stages{
 
         stage('global stage'){
-            
+
             agent{
                 docker{
-                    image 'mcr.microsoft.com/playwright:v1.59.1-noble'
+                    image 'mcr.microsoft.com/playwright:v1.62.1-noble'
                     args '-u root --entrypoint='
                 }
             }
