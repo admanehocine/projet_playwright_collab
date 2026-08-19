@@ -8,8 +8,9 @@ pipeline{
         choice(name: 'browser', choices: ['firefox','chromium','webkit'], description: 'Choisissez le choix du navigateur')   
     }
     stages{
-        
+
         stage('global stage'){
+            
             agent{
                 docker{
                     image 'mcr.microsoft.com/playwright:v1.59.1-noble'
